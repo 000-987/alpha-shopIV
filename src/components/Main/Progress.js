@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
-import { CartContext } from '../CartContext';
-import { FormContext } from '../FormContext';
+import { CartContext } from 'components/CartContext';
+import { FormContext } from 'components/FormContext';
 import ProgressStep from "./Progress/ProgressStep";
 import ProgressControl from "./Progress/ProgressControl";
 import StepForm from './Progress/StepForm';

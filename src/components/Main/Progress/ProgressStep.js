@@ -1,5 +1,5 @@
 import styles from "./ProgressStep.module.css"
-import  { ReactComponent as DoneCheck } from "../../../icons/pg-complete.svg"
+import  { ReactComponent as DoneCheck } from "icons/pg-complete.svg"
 
 function Step({currentStep, step, label}) {
   return(
