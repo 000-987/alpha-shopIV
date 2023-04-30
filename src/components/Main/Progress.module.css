@@ -1,0 +1,13 @@
+.progress__container {
+  width: 45%;
+  margin: 0px 15px;
+  height: 670px;
+  position: relative;
+}
+
+.progress__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--main-text);
+}
