@@ -1,4 +1,4 @@
-import Main from './components/Main.js'
+import Main from './components/Main.jsx'
 
 import './reset.module.css'
 import './base.module.css'
