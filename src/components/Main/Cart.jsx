@@ -14,13 +14,13 @@ function ProductList({ handlePlus, handleMinus, products }) {
         <div className={styles.product__name}>{product.name}</div>
         <div className={styles.product__control__container}>
           <div className={styles.product__control}>
-            <PlusBtn
-              className={styles.product__control__btn}
-              onClick={() => handlePlus(product.id)} />
-            <span className={styles.product__count}>{product.quantity}</span>
             <MinusBtn
               className={styles.product__control__btn}
               onClick={() => handleMinus(product.id)} />
+            <span className={styles.product__count}>{product.quantity}</span>
+            <PlusBtn
+              className={styles.product__control__btn}
+              onClick={() => handlePlus(product.id)} />
           </div>
         </div>
         <div className={styles.product__price}>${product.price}</div>
