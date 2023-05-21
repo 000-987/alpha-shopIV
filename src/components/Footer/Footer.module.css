@@ -26,12 +26,6 @@ footer.siteFooter {
   margin-bottom: 127px;
 }
 
-svg {
-  display: inline-block;
-  width: 175.5px;
-  height: 31px;
-}
-
 .footerSection {
   display: flex;
   flex-direction: column;

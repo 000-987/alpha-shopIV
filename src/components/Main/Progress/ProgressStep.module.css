@@ -7,7 +7,7 @@
 }
 
 .progress__group {
-  display: flex
+  display: flex;
 }
 
 .progress__bar {
@@ -17,13 +17,13 @@
   height: 1px;
   margin: 0px 8px;
   border: 1.5px solid var(--done-progress-border);
-  background-color: var(--done-progress-border)
+  background-color: var(--done-progress-border);
 }
 
 .progress__bar__undone {
   composes: progress__bar;
   border: 1.5px solid var(--undone-progress-border);
-  background-color: var(--undone-progress-border)
+  background-color: var(--undone-progress-border);
 }
 
 .progress__circle {
@@ -66,10 +66,10 @@
 
 .progress__label__done {
   composes: progress__label;
-  color: var(--progress-current-color)
+  color: var(--progress-current-color);
 }
 
 .progress__label__undone {
   composes: progress__label;
-  color: var(--progress-undone-color)
+  color: var(--progress-undone-color);
 }

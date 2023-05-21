@@ -2,10 +2,10 @@ import { createContext } from 'react';
 import { useState } from 'react';
 
 const info = {
-  cardName: '',
-  cardNum: '',
-  cardDate: '',
-  cardCvc: ''
+  持卡人姓名: '',
+  卡號: '',
+  有效期限: '',
+  "CVC / CCV": '',
 }
 
 const FormContext = createContext()
